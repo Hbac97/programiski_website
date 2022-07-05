@@ -33,3 +33,9 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### sass do stylów
+
+```sh
+npm run sass
+```
