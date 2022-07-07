@@ -1,11 +1,10 @@
 <template>
     <div>
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 bg-opacity-0 ... h-50">
       <nav
         class="
           container
-          px-6
-          py-8
+          px-10
           mx-auto
           md:flex md:justify-between md:items-center
         "
@@ -20,7 +19,11 @@
               md:text-2xl
               hover:text-blue-400
             "
-            ><img src="../assets/logowektor.png">
+            >
+            <div class="logo">
+              <img src="../assets/logowektor.png">
+              <b>Koło naukowe<br>PROGRAMIŚKI</b>
+            </div>
           </router-link>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -59,16 +62,16 @@
           "
         >
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="/">/Koło</router-link>
+            <router-link to="/">KOŁO</router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="/about">/Aktualności</router-link>
+            <router-link to="/news">AKTUALNOŚCI</router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            Blogs
+            <router-link to="/project">PROJEKT</router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            Contact Us
+            <router-link to="/contact">KONTAKT</router-link>
           </li>
         </ul>
       </nav>
@@ -88,8 +91,36 @@ export default {
 
 
 <style lang="scss" scoped>
-    
+    img {
+      max-width: 12%;
+      height: auto;
+    }
     .Sidebar{
-        background-color: var(--dark)
+        background-color: var(--dark);
+
+    }
+    .logo {
+      display : flex;
+      flex-direction : row;
+      align-items: center;
+      font-size: 15px;
+      letter-spacing: 1px;
+      line-height: 25px;
+      text-align: center;
+      color: whitesmoke;
+      font-family: 'Lato', sans-serif;
+    }
+    li {
+      color: whitesmoke;
+      padding: 30px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+    }
+    navbar {
+      font-weight: 600;
+      font-family: 'Lato', sans-serif;
+    }
+    navbar ul {
+      margin-right: 40%;
     }
 </style>

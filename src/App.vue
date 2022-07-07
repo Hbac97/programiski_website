@@ -35,13 +35,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
 }
 .app {
   min-height: 100vh;
   position: relative;
-  background-color: var(--dark);
+  background: rgb(99,205,127);
+  background: linear-gradient(225deg, rgba(99,205,127,0.5609594179468662) 0%, rgba(91,170,158,1) 45%, rgba(72,130,158,1) 92%, rgba(80,147,158,1) 100%);
+  color: whitesmoke;
 }
 .container {
   padding: 0 20px;
