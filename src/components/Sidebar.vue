@@ -68,7 +68,7 @@
             <router-link to="/news">AKTUALNOŚCI</router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="/project">PROJEKT</router-link>
+            <router-link to="/project">PROJEKTY</router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             <router-link to="/contact">KONTAKT</router-link>
@@ -92,7 +92,7 @@ export default {
 
 <style lang="scss" scoped>
     img {
-      max-width: 12%;
+      max-width: 30%;
       height: auto;
     }
     .Sidebar{
