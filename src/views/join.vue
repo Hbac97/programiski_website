@@ -40,6 +40,7 @@
         margin-top: 60px;
         left: 130px;
         position: absolute;
+        box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
     }
     .cytat {
         padding-top: 40px;

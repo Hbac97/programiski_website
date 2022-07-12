@@ -53,11 +53,11 @@
       margin-top: 70px;
       left: 120px;
       transition: 0.3s;
-      box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.15);
+      box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
   }
   .rectangle4:hover {
-  background-color: rgb(0, 0, 0, 0.15);
-  color: white; 
+    background-color: rgb(0, 0, 0, 0.1);
+    color: white; 
   }
   .profile {
     padding-top: 40px;
@@ -67,7 +67,6 @@
     width: 150px;
     height: 150px;
     border-radius: 50px 50px 50px 50px;
-    
   }
   .name {
     font-family: 'Lato', sans-serif;
@@ -81,7 +80,6 @@
     font-family: 'Lato', sans-serif;
     color: whitesmoke;
     font-size: 14px;
-
     text-align: center;
   }
   .mail {

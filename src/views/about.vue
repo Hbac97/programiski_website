@@ -45,9 +45,9 @@
         font-family: 'Lato', sans-serif;
         color: whitesmoke;
         font-size: 25px;
-        box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.2);
+        box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.175);
     }
-    .rectangle3 h1 {
+    .rectangle3 h2 {
         font-size: 25px;
 
     }

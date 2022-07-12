@@ -2,21 +2,41 @@
 
     <main class="home">
     </main>
+    <router-link to="/about">
+        <div class="rectangle">
+            <div class="zdj_zakładki">
+                <img src="../assets/example.jpg">
+            </div>
+            <div class="tytuł_zakładki">O nas</div>
+        </div>
+    </router-link>
 
-    <div class="rectangle">
-        <router-link to="/about">O nas</router-link>
-    </div>
-    <div class="rectangle">
-        <router-link to="/government">Władze</router-link>
-    </div>
-    <div class="rectangle">
-        <router-link to="/statute">Regulamin</router-link>
-    </div>
-    <div class="rectangle">
-        <router-link to="/join">Dołącz do nas!</router-link>
-    </div>
-    
-    
+    <router-link to="/government">
+        <div class="rectangle">
+            <div class="zdj_zakładki">
+                <img src="../assets/example.jpg">
+            </div>
+            <div class="tytuł_zakładki">Władze</div>
+        </div>
+    </router-link>
+
+    <router-link to="/statute">
+        <div class="rectangle">
+            <div class="zdj_zakładki">
+                <img src="../assets/example.jpg">
+            </div>
+            <div class="tytuł_zakładki">Regulamin</div>
+        </div>
+    </router-link>
+
+    <router-link to="/join">
+        <div class="rectangle">
+            <div class="zdj_zakładki">
+                <img src="../assets/example.jpg">
+            </div>
+            <div class="tytuł_zakładki">Dołącz do nas!</div>
+        </div>
+    </router-link>
 </template>
 
 <style>
@@ -26,20 +46,31 @@
       background: rgb(0, 0, 0, 0.1);
       border-radius: 30px 30px 30px 30px;
       display : inline-block;
-      padding-top: 380px;
-      text-align: center;
       position: relative;
       margin: 25px;
       margin-top: 35px;
       left: 65px;
-      font-family: 'Lato', sans-serif;
-      color: whitesmoke;
-      font-size: 25px;
       transition: 0.3s;
-      box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.2);
+      box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
   }
   .rectangle:hover {
   background-color: rgb(0, 0, 0, 0.20);
   color: white; 
+  }
+  .tytuł_zakładki {
+    padding-top: 380px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+  }
+  .zdj_zakładki {
+    position: absolute;
+    padding: 35px;
+  }
+  .zdj_zakładki img {
+    width: 250px;
+    height: 100%;
+    border-radius: 25px 25px 25px 25px;
   }
 </style>
