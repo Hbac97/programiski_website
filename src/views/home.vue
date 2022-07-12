@@ -36,6 +36,7 @@
       color: whitesmoke;
       font-size: 25px;
       transition: 0.3s;
+      box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.2);
   }
   .rectangle:hover {
   background-color: rgb(0, 0, 0, 0.20);

@@ -7,28 +7,36 @@
         <div class="name">Justyna Szydłowska</div>
         <div class="role"><br>Opiekun koła</div>
         <div class="role"><br></div>
-        <div class="mail"><br><br>justyna.szydlowska@usz.edu.pl</div>
+        <div class="mail"><br>justyna.szydlowska@usz.edu.pl</div>
+        <div class="linkedin"><a href=""></a></div>
+        <div class="Facebook"><a href=""></a></div>
     </div>
     <div class="rectangle4">
         <div class="profile"><img src="../assets/przew.jpg"></div>
         <div class="name"><h3>Hubert Baciocha</h3></div>
         <div class="role"><br>Przewodniczący</div>
         <div class="role"><br></div>
-        <div class="mail"><br><br>hubert.baciocha@stud.usz.edu.pl</div>
+        <div class="mail"><br>hubert.baciocha@stud.usz.edu.pl</div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/hubert-baciocha-b06441198/">Linkedin </a></div>
+        <div class="Facebook"><a href="https://www.facebook.com/hubertbaciocha"> Facebook</a></div>
     </div>
     <div class="rectangle4">
         <div class="profile"><img src="../assets/wice.jpg"></div>
         <div class="name"><h3>Natalia Tucka</h3></div>
         <div class="role"><br>Wiceprzewodnicząca</div>
         <div class="role">Sekretarz</div>
-        <div class="mail"><br><br>natalia.tucka@stud.usz.edu.pl</div>
+        <div class="mail"><br>natalia.tucka@stud.usz.edu.pl</div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/natalia-tucka-93b617243/">Linkedin </a></div>
+        <div class="Facebook"><a href="https://www.facebook.com/natalia.tucka.1>Natalia Tucka"> Facebook</a></div>
     </div>
     <div class="rectangle4">
         <div class="profile"><img src="../assets/skarbnik.jpg"></div>
         <div class="name"><h3>Konrad Strzelecki</h3></div>
         <div class="role"><br>Skarbnik</div>
         <div class="role"><br></div>
-        <div class="mail"><br><br>konrad.strzelecki@stud.usz.edu.pl</div>
+        <div class="mail"><br>konrad.strzelecki@stud.usz.edu.pl</div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/konrad-strzelecki-940a33216/">Linkedin </a></div>
+        <div class="Facebook"><a href="https://www.facebook.com/konrad.keen.39ll"> Facebook</a></div>
     </div>
 
 </template>
@@ -45,6 +53,7 @@
       margin-top: 70px;
       left: 120px;
       transition: 0.3s;
+      box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.15);
   }
   .rectangle4:hover {
   background-color: rgb(0, 0, 0, 0.15);
@@ -79,8 +88,23 @@
     font-family: 'Lato', sans-serif;
     color: whitesmoke;
     font-size: 13px;
-
     text-align: center;
+  }
+  .linkedin {
+    width: 25px;
+    height: 15px;
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    font-size: 13px;
+    padding-left: 60px;
+  }
+  .Facebook {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    font-size: 13px;
+    padding-left: 15px;
   }
 
 </style>

@@ -109,12 +109,14 @@ export default {
       text-align: center;
       color: whitesmoke;
       font-family: 'Lato', sans-serif;
+      text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
     }
     li {
       color: whitesmoke;
       padding: 30px;
       font-family: 'Lato', sans-serif;
       font-weight: 700;
+      text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
     }
     navbar {
       font-weight: 600;
