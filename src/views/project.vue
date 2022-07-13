@@ -2,24 +2,25 @@
 
     <main class="/project"></main>
     
-    
-    <router-link to="/current_projects">
-        <div class="rectangle2">
-            <div class="zdj_zakładki_projektu">
-                <img src="../assets/example.jpg">
-            </div>
-            <div class="tekst_zakładki_projektu">Bieżące</div>
-        </div>
-    </router-link>
+    <div class= "flex justify-center flex-wrap object-center px-8">
+      <router-link to="/current_projects">
+          <div class="rectangle2">
+              <div class="zdj_zakładki_projektu">
+                  <img src="../assets/example.jpg">
+              </div>
+              <div class="tekst_zakładki_projektu">Bieżące</div>
+          </div>
+      </router-link>
 
-    <router-link to="/realized_projects">
-        <div class="rectangle2">
-            <div class="zdj_zakładki_projektu">
-                <img src="../assets/example.jpg">
-            </div>
-            <div class="tekst_zakładki_projektu">Zrealizowane</div>
-        </div>
-    </router-link>
+      <router-link to="/realized_projects">
+          <div class="rectangle2">
+              <div class="zdj_zakładki_projektu">
+                  <img src="../assets/example.jpg">
+              </div>
+              <div class="tekst_zakładki_projektu">Zrealizowane</div>
+          </div>
+      </router-link>
+    </div>
 </template>
 
 <style>
@@ -29,13 +30,9 @@
       background: rgb(0, 0, 0, 0.1);
       border-radius: 30px 30px 30px 30px;
       display : inline-block;
-      
-      
       position: relative;
       margin: 60px;
       margin-top: 50px;
-      left: 140px;
-      
       transition: 0.3s;
       box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
   }
