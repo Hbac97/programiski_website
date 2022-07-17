@@ -22,7 +22,7 @@
             >
             <div class="logo">
               <img src="../assets/logowektor.png">
-              <b>Koło naukowe<br>PROGRAMIŚKI</b>
+              <router-link to="/"><b>Koło naukowe<br>PROGRAMIŚKI</b></router-link>
             </div>
           </router-link>
           <!-- Mobile menu button -->
@@ -62,7 +62,7 @@
           "
         >
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="/">KOŁO</router-link>
+            <router-link to="/club">KOŁO</router-link>
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             <router-link to="/news">AKTUALNOŚCI</router-link>

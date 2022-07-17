@@ -2,41 +2,43 @@
 
     <main class="/government"></main>
 
-    <div class="rectangle4">
-        <div class="profile"><img src="../assets/opiekunkola.png"></div>
-        <div class="name">Justyna Szydłowska</div>
-        <div class="role"><br>Opiekun koła</div>
-        <div class="role"><br></div>
-        <div class="mail"><br>justyna.szydlowska@usz.edu.pl</div>
-        <div class="linkedin"><a href=""></a></div>
-        <div class="Facebook"><a href=""></a></div>
-    </div>
-    <div class="rectangle4">
-        <div class="profile"><img src="../assets/przew.jpg"></div>
-        <div class="name"><h3>Hubert Baciocha</h3></div>
-        <div class="role"><br>Przewodniczący</div>
-        <div class="role"><br></div>
-        <div class="mail"><br>hubert.baciocha@stud.usz.edu.pl</div>
-        <div class="linkedin"><a href="https://www.linkedin.com/in/hubert-baciocha-b06441198/">Linkedin </a></div>
-        <div class="Facebook"><a href="https://www.facebook.com/hubertbaciocha"> Facebook</a></div>
-    </div>
-    <div class="rectangle4">
-        <div class="profile"><img src="../assets/wice.jpg"></div>
-        <div class="name"><h3>Natalia Tucka</h3></div>
-        <div class="role"><br>Wiceprzewodnicząca</div>
-        <div class="role">Sekretarz</div>
-        <div class="mail"><br>natalia.tucka@stud.usz.edu.pl</div>
-        <div class="linkedin"><a href="https://www.linkedin.com/in/natalia-tucka-93b617243/">Linkedin </a></div>
-        <div class="Facebook"><a href="https://www.facebook.com/natalia.tucka.1>Natalia Tucka"> Facebook</a></div>
-    </div>
-    <div class="rectangle4">
-        <div class="profile"><img src="../assets/skarbnik.jpg"></div>
-        <div class="name"><h3>Konrad Strzelecki</h3></div>
-        <div class="role"><br>Skarbnik</div>
-        <div class="role"><br></div>
-        <div class="mail"><br>konrad.strzelecki@stud.usz.edu.pl</div>
-        <div class="linkedin"><a href="https://www.linkedin.com/in/konrad-strzelecki-940a33216/">Linkedin </a></div>
-        <div class="Facebook"><a href="https://www.facebook.com/konrad.keen.39ll"> Facebook</a></div>
+    <div class= "flex justify-center flex-wrap object-center px-8">
+      <div class="rectangle4">
+          <div class="profile"><img src="../assets/opiekunkola.png"></div>
+          <div class="name">Justyna Szydłowska</div>
+          <div class="role"><br>Opiekun koła</div>
+          <div class="role"><br></div>
+          <div class="mail"><br>justyna.szydlowska@usz.edu.pl</div>
+          <div class="linkedin"><a href=""></a></div>
+          <div class="Facebook"><a href=""></a></div>
+      </div>
+      <div class="rectangle4">
+          <div class="profile"><img src="../assets/przew.jpg"></div>
+          <div class="name"><h3>Hubert Baciocha</h3></div>
+          <div class="role"><br>Przewodniczący</div>
+          <div class="role"><br></div>
+          <div class="mail"><br>hubert.baciocha@stud.usz.edu.pl</div>
+          <div class="linkedin"><a href="https://www.linkedin.com/in/hubert-baciocha-b06441198/" style="text-decoration: underline">Linkedin </a></div>
+          <div class="Facebook"><a href="https://www.facebook.com/hubertbaciocha" style="text-decoration: underline"> Facebook</a></div>
+      </div>
+      <div class="rectangle4">
+          <div class="profile"><img src="../assets/wice.jpg"></div>
+          <div class="name"><h3>Natalia Tucka</h3></div>
+          <div class="role"><br>Wiceprzewodnicząca</div>
+          <div class="role">Sekretarz</div>
+          <div class="mail"><br>natalia.tucka@stud.usz.edu.pl</div>
+          <div class="linkedin"><a href="https://www.linkedin.com/in/natalia-tucka-93b617243/" style="text-decoration: underline">Linkedin </a></div>
+          <div class="Facebook"><a href="https://www.facebook.com/natalia.tucka.1>Natalia Tucka" style="text-decoration: underline"> Facebook</a></div>
+      </div>
+      <div class="rectangle4">
+          <div class="profile"><img src="../assets/skarbnik.jpg"></div>
+          <div class="name"><h3>Konrad Strzelecki</h3></div>
+          <div class="role"><br>Skarbnik</div>
+          <div class="role"><br></div>
+          <div class="mail"><br>konrad.strzelecki@stud.usz.edu.pl</div>
+          <div class="linkedin"><a href="https://www.linkedin.com/in/konrad-strzelecki-940a33216/" style="text-decoration: underline">Linkedin </a></div>
+          <div class="Facebook"><a href="https://www.facebook.com/konrad.keen.39ll" style="text-decoration: underline"> Facebook</a></div>
+      </div>
     </div>
 
 </template>
@@ -51,7 +53,6 @@
       position: relative;
       margin: 40px;
       margin-top: 70px;
-      left: 120px;
       transition: 0.3s;
       box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
   }

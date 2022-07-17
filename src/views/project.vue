@@ -25,7 +25,7 @@
 
 <style>
   .rectangle2 {
-      width: 500px;
+      width: 400px;
       height: 450px;
       background: rgb(0, 0, 0, 0.1);
       border-radius: 30px 30px 30px 30px;

@@ -9,6 +9,7 @@ import statute from '../views/statute.vue'
 import join from '../views/join.vue'
 import current_projects from '../views/current_projects.vue'
 import realized_projects from '../views/realized_projects.vue'
+import club from '../views/club.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -52,6 +53,10 @@ const router = createRouter({
         {
             path: '/realized_projects',
             component: realized_projects
+        },
+        {
+            path: '/club',
+            component: club
         },
 
 

@@ -2,52 +2,43 @@
    
     <main class="home">
     </main>
-    <div v-if="$isMobile()"></div>
-    <div v-else>
-        <v-shell class="terminal flex flex-wrap"
-        :banner="banner"
-        :shell_input="send_to_terminal"
-        :commands="commands"
-        @shell_output="prompt"
-        ></v-shell>
+    
+    <div v-if="$isMobile()">
+        <div class="flex justify-center flex-wrap object-center px-8 text-ellipsis">
+            <div class="club_mb_bg">
+                <div class="club_description_mb">
+                    Cześć!<br>
+                    Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głownie w programowaniu. 
+                    Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
+                    Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!
+                    
+                </div>
+            </div>
+        </div>
     </div>
 
-  <div class= "flex justify-center flex-wrap object-center px-8">
-        <router-link to="/about">
-            <div class="rectangle" >
-                <div class="zdj_zakładki">
-                    <img src="../assets/example.jpg">
+    <div v-else>
+         <div class= "flex justify-center flex-wrap object-center px-8 text-ellipsis">
+            <div class="box1">
+                <div class="card-column">
+                    <div class= "flex justify-center flex-wrap object-center px-8 text-ellipsis">
+                        <v-shell class="terminal flex flex-wrap"
+                        :banner="banner"
+                        :shell_input="send_to_terminal"
+                        :commands="commands"
+                        @shell_output="prompt"
+                        ></v-shell>
+                    </div>
                 </div>
-                <div class="tytuł_zakładki">O nas</div>
-            </div>
-        </router-link>
 
-        <router-link to="/government">
-            <div class="rectangle">
-                <div class="zdj_zakładki">
-                    <img src="../assets/example.jpg">
+                <div class="card-column flex-column">
+                    <div class="home_text1" style="text-align: center">Cześć!<br></div>
+                    <div class="home_text">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głownie w programowaniu. 
+                    Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
+                    Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!</div>
                 </div>
-                <div class="tytuł_zakładki">Władze</div>
             </div>
-        </router-link>
-
-        <router-link to="/statute">
-            <div class="rectangle">
-                <div class="zdj_zakładki">
-                    <img src="../assets/example.jpg">
-                </div>
-                <div class="tytuł_zakładki">Regulamin</div>
-            </div>
-        </router-link>
-
-        <router-link to="/join">
-            <div class="rectangle">
-                <div class="zdj_zakładki">
-                    <img src="../assets/example.jpg">
-                </div>
-                <div class="tytuł_zakładki">Dołącz do nas!</div>
-            </div>
-        </router-link>
+        </div>
     </div>
 </template>
 
@@ -60,7 +51,7 @@
         banner: {
             //header: "Programiski",
             subHeader: "",
-            helpHeader: 'Wpisz "help", poznaj komendy.',
+            helpHeader: 'Hej! Wpisz "hello"',
             emoji: {
                 first: "🐻",
             },
@@ -73,29 +64,41 @@
             // }
         },
         commands: [
-            { name: "info",
+            { name: "hello",
             get() {
-                return `<p>Witaj na stronie Koła naukowego Programiski i takie tam bla bla bla bla bla blab lalalalalala</p>`;
+                return `<p>Witaj na stronie Koła naukowego Programiski!<br>Wpisz "help" i poznaj wszystkie komendy lub zjedź na dół i dowiedz się o nas więcej.</p>`;
             }
             },
             {
-            name: "club",
+            name: "e-mail",
             get() {
-                return navigator.appVersion;
+                return '<p>Nasz e-mail to: programiski@usz.edu.pl<br>W razie pytań pisz śmiało!</p>';
             }
             },
             {
-            name: "news",
+            name: "localization",
             get() {
-                return navigator.appVersion;
+                return '<p>Uniwersytet Szczeciński<br>Wydział Ekonomii, Finansów i Zarządzania<br>Cukrowa 8, 71-004 Szczecin</p>';
             }
             },
             {
-            name: "callus",
+            name: "fun_fact",
             get() {
-                return navigator.appVersion;
+                return '<p>Komputer był tytułem zawodowym, a pierwszymi programistami były kobiety!<br><a href="https://www.matplaneta.pl/programowanie-to-warto-wiedziec/" style="text-decoration: underline">Link do strony z ciekawostkami</a></p>';
             }
+            },
+            {
+            name: "joke-1",
+            get() {
+                return '<p>Jak zająć programistę?<br>- Przeczytaj zdanie poniżej.<br>- Przeczytaj zdanie powyżej.</p>';
             }
+            },
+            {
+            name: "joke-2",
+            get() {
+                return 'Spotykają się dwaj programiści:<br>- Słuchaj, potrzebuję generatora liczb losowych<br>- Czternaście...</p>';
+            }
+            },
         ]
         };
     },
@@ -110,57 +113,28 @@
 </script>
 
 <style>
-  .rectangle {
-        width: 300px;
-        height: 480px;
-        background: rgb(0, 0, 0, 0.1);
-        border-radius: 30px 30px 30px 30px;
-        display : inline-block;
-        position: relative;
-        margin: 25px;
-        margin-top: 35px;
-        transition: 0.3s;
-        box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
-  }
-  .rectangle:hover {
-  background-color: rgb(0, 0, 0, 0.20);
-  color: white; 
-  }
-  .tytuł_zakładki {
-    padding-top: 380px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    color: whitesmoke;
-    font-size: 25px;
-  }
-  .zdj_zakładki {
-    position: absolute;
-    padding: 35px;
-  }
-  .zdj_zakładki img {
-    width: 250px;
-    height: 100%;
-    border-radius: 25px 25px 25px 25px;
-  }
+    .flex-column {
+        flex-direction: column;
+    }
+    .card-column {
+        width: 70%;
+        display: flex;
+        padding: 1rem;
+    }
     #container[data-v-02bdc591]{
-        width: 50%;
+        width: 750px;
         height: 500px;
-        background: rgb(0, 0, 0, 0.15);
         border-radius: 30px 30px 30px 30px;
-        display : inline-block;
         position: relative;
-        margin: 25px;
-        margin-top: 45px;
-        padding-left: 120px;
-        padding-bottom: 120px;
-        left: 65px;
         font-family: 'Inconsolata', monospace;
         color: whitesmoke;
         font-size: 16px;
         max-height: 500px;
-        max-width: 50%;
         overflow: hidden;
         overflow-wrap: break-word;
+        background-color: rgb(0, 0, 0, 0.15);
+        box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
+
     }
     .prompt[data-v-02bdc591]{
         color: #A7DEBE;
@@ -168,8 +142,62 @@
     .cmdline[data-v-02bdc591]{
         color: whitesmoke;
         overflow: hidden;
-        overflow-wrap: break-word;
+        overflow-wrap: break-word; 
+    }
+    .box1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        background-color: rgb(0, 0, 0, 0);
+        display : flex;
+        width: 100%;
+        height: auto;
+    }
+    .home_text {
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+        padding: 30px;
+        padding-top: 5px;
+        padding-left: 110px;
+
+    }
+    .home_text1 {
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+        color: whitesmoke;
+        font-size: 25px;
+        padding: 30px;
+        padding-top: 25px;
+        padding-left: 110px;
+    }
+    
+    .club_description_mb {
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        color: whitesmoke;
+        font-size: 22px;
+        padding: 8%;
         
     }
-
+    .club_mb_bg {
+        margin-top: 50px;
+        display: relative;
+        width: 95%;
+        height: 100%;
+        background: rgb(0, 0, 0, 0.1);
+        border-radius: 30px 30px 30px 30px;
+        box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.175);
+    }
+    @media (max-width: 1200px) {
+    .box1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-column {
+        width: 100%;
+    }
+    
+}
 </style>

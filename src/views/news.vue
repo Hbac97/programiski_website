@@ -2,20 +2,6 @@
 
     <main class="/news"></main>
 
-    <!-- <div class="flex justify-center flex-wrap object-center px-8 text-ellipsis">
-        <div class="rectangle6 box-border">
-            <div class="event_picture"><img src="../assets/hackathon_grupowe.jpg"></div>
-            <div class="event_title">Hackathon - Startup Academy</div>
-            <div class="event_description box-border">W ostatni czerwcowy weekend na wydziale ZUT-u odbył się Hackathon organizowany przez Startup Academy. Z naszego koła wzięło w nim udział 
-                sześcioro członków tworząc najliczniejszą grupę na tym wydarzeniu. <br>Tematem przewodnim była pomoc przybyszom z Ukrainy. Nasz zespół wziął udział w wyzwaniu 
-                dotyczącym stworzeniu wtyczki, która informuje o pochodzeniu produktów. Przez dwa dni stworzyliśmy zarówno projekt biznesowy jak i prawie w pełni działającą wtyczkę.
-                <br>Podczas całego eventu towarzyszył nam świetny humor, śmiechu jak i skupienia było od groma. Z pewnością zdobyliśmy cenną wiedzę, poznaliśmy wspaniałych ludzi 
-                i co najważniejsze, otrzymaliśmy ogromną dawkę motywacji do dalszego działania. To na pewno nie było ostatnie wydarzenie tego typu. <b>Działamy dalej!</b>
-            </div>
-            <div class="data">25-26.06.2022r.</div>
-        </div>
-    </div> -->
-
     <div class="flex justify-center flex-wrap object-center px-8 text-ellipsis">
         <div class="rectangle6">
             <div class="card-column">
@@ -59,6 +45,7 @@
     box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
     display: flex;
     padding: 10px;
+    margin-top: 25px;
 }
 
 .event_picture {
@@ -80,6 +67,7 @@
     color: whitesmoke;
     font-size: 17px;
     text-align: justify;
+    margin-top: 15px;
 }
 
 .data {
