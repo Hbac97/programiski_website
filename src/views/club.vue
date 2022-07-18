@@ -6,7 +6,7 @@
         <router-link to="/about">
             <div class="rectangle" >
                 <div class="zdj_zakładki">
-                    <img src="../assets/example.jpg">
+                    <img src="../assets/aboutus.png">
                 </div>
                 <div class="tytuł_zakładki">O nas</div>
             </div>
@@ -15,7 +15,7 @@
         <router-link to="/government">
             <div class="rectangle">
                 <div class="zdj_zakładki">
-                    <img src="../assets/example.jpg">
+                    <img src="../assets/wladze.png">
                 </div>
                 <div class="tytuł_zakładki">Władze</div>
             </div>
@@ -24,7 +24,7 @@
         <router-link to="/statute">
             <div class="rectangle">
                 <div class="zdj_zakładki">
-                    <img src="../assets/example.jpg">
+                    <img src="../assets/regulamin.png">
                 </div>
                 <div class="tytuł_zakładki">Regulamin</div>
             </div>
@@ -33,7 +33,7 @@
         <router-link to="/join">
             <div class="rectangle">
                 <div class="zdj_zakładki">
-                    <img src="../assets/example.jpg">
+                    <img src="../assets/join.png">
                 </div>
                 <div class="tytuł_zakładki">Dołącz do nas!</div>
             </div>

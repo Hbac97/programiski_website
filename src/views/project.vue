@@ -6,7 +6,7 @@
       <router-link to="/current_projects">
           <div class="rectangle2">
               <div class="zdj_zakładki_projektu">
-                  <img src="../assets/example.jpg">
+                  <img src="../assets/current.png">
               </div>
               <div class="tekst_zakładki_projektu">Bieżące</div>
           </div>
@@ -15,7 +15,7 @@
       <router-link to="/realized_projects">
           <div class="rectangle2">
               <div class="zdj_zakładki_projektu">
-                  <img src="../assets/example.jpg">
+                  <img src="../assets/realized.png">
               </div>
               <div class="tekst_zakładki_projektu">Zrealizowane</div>
           </div>
