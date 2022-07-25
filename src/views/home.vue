@@ -18,25 +18,19 @@
     </div>
 
     <div v-else>
-         <div class= "flex justify-center flex-wrap object-center px-8 text-ellipsis">
-            <div class="box1">
-                <div class="card-column">
-                    <div class= "flex justify-center flex-wrap object-center px-8 text-ellipsis">
-                        <v-shell class="terminal flex flex-wrap"
-                        :banner="banner"
-                        :shell_input="send_to_terminal"
-                        :commands="commands"
-                        @shell_output="prompt"
-                        ></v-shell>
-                    </div>
-                </div>
+        <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis box1 ">
+            <v-shell class="container p-4 w-full flex-wrap"
+                :banner="banner"
+                :shell_input="send_to_terminal"
+                :commands="commands"
+                @shell_output="prompt"
+            ></v-shell>
 
-                <div class="card-column flex-column">
-                    <div class="home_text1" style="text-align: center">Cześć!<br></div>
-                    <div class="home_text">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głownie w programowaniu. 
-                    Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
-                    Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!</div>
-                </div>
+            <div class="container flex justify-center flex-wrap object-center px-8 w-full">
+                <div class="home_text1 block p-8 flex justify-center text-justify">Cześć!<br></div>
+                <div class="home_text block p-8 flex justify-center text-justify">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głownie w programowaniu. 
+                Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
+                Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!</div>
             </div>
         </div>
     </div>
@@ -99,6 +93,14 @@
                 return 'Spotykają się dwaj programiści:<br>- Słuchaj, potrzebuję generatora liczb losowych<br>- Czternaście...</p>';
             }
             },
+            {
+            name: "uwaga",
+            get() {
+                return window.blur(100);
+            }
+            },
+
+            
         ]
         };
     },
@@ -117,24 +119,28 @@
         flex-direction: column;
     }
     .card-column {
-        width: 70%;
+        width: 100%;
         display: flex;
         padding: 1rem;
     }
     #container[data-v-02bdc591]{
-        width: 750px;
         height: 500px;
         border-radius: 30px 30px 30px 30px;
-        position: relative;
         font-family: 'Inconsolata', monospace;
         color: whitesmoke;
         font-size: 16px;
         max-height: 500px;
-        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
         overflow-wrap: break-word;
         background-color: rgb(0, 0, 0, 0.15);
         box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
-
+    }
+    #baner[data-v-02bdc591]{
+        display: flex;
+    }
+    #input-line[data-v-02bdc591]{
+        display: flex;
     }
     .prompt[data-v-02bdc591]{
         color: #A7DEBE;
@@ -153,23 +159,14 @@
         height: auto;
     }
     .home_text {
-        text-align: justify;
         font-family: 'Lato', sans-serif;
         color: whitesmoke;
         font-size: 25px;
-        padding: 30px;
-        padding-top: 5px;
-        padding-left: 110px;
-
     }
     .home_text1 {
-        text-align: justify;
         font-family: 'Lato', sans-serif;
         color: whitesmoke;
         font-size: 25px;
-        padding: 30px;
-        padding-top: 25px;
-        padding-left: 110px;
     }
     
     .club_description_mb {
