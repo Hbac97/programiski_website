@@ -5,12 +5,17 @@
     <div class="flex justify-center flex-wrap object-center px-8 text-ellipsis">
         <div class="rectangle6">
             <div class="card-column">
-                <img class="rproject_picture" src="../assets/computer.jpg">
+                <img class="rproject_picture" src="../assets/strona.jpg">
             </div>
             <div class="card-column flex-column">
-                <div class="rproject_title">Nie zrealizowaliśmy jeszcze żadnego projektu</div>
-                <div class="rproject_data">25-26.06.2022r.</div>
-                <div class="rproject_description box-border">Opis zrealizowanego projektu
+                <div class="rproject_title">Strona internetowa koła</div>
+                <div class="rproject_data">07.2022</div>
+                <div class="rproject_description box-border">
+                    Naszym pierwszym projektem nie mogło być nic innego jak stworzenie własnej strony internetowej, by każdy kto jest zainteresowany naszą działalnością mógł w szybki i prosty
+                    sposób dowiedzieć się o nas wszystkich potrzebnych informacji. <br>Cały projekt został utworzony w Vue. Wybraliśmy właśnie ten framework, aby nauczyć się czegoś nowego, ponieważ osoby, 
+                    które stworzyły stronę nie znały wcześniej tego narzędzia. Wszyscy zaangażowani w projekt podzielili się na zadania od UI do kodowania. <br>Do stworzenia UI użyliśmy
+                    narzędzia <a href="https://www.figma.com/" style="text-decoration: underline">figma</a>, gdzie umieściliśmy dokładne projekty wszystkich podstron. Następnie zajęliśmy się tworzeniem strony w Vue, a 
+                    nasze postępy umieszczaliśmy na Githubie. 
                 </div>
             </div>
         </div>

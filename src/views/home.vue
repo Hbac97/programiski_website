@@ -26,9 +26,9 @@
                 @shell_output="prompt"
             ></v-shell>
 
-            <div class="container flex justify-center flex-wrap object-center px-8 w-full">
-                <div class="home_text1 block p-8 flex justify-center text-justify">Cześć!<br></div>
-                <div class="home_text block p-8 flex justify-center text-justify">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głownie w programowaniu. 
+            <div class="container justify-center flex-wrap object-center px-20 w-full">
+                <div class="home_text1 block p-8 pt-14 flex justify-center text-justify">Cześć!</div>
+                <div class="home_text block px-8 flex justify-center text-justify">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głównie w programowaniu. 
                 Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
                 Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!</div>
             </div>
@@ -60,7 +60,7 @@
         commands: [
             { name: "hello",
             get() {
-                return `<p>Witaj na stronie Koła naukowego Programiski!<br>Wpisz "help" i poznaj wszystkie komendy lub zjedź na dół i dowiedz się o nas więcej.</p>`;
+                return `<p>Witaj na stronie Koła naukowego Programiski!<br>Wpisz "help" i poznaj wszystkie komendy.</p>`;
             }
             },
             {
@@ -93,13 +93,6 @@
                 return 'Spotykają się dwaj programiści:<br>- Słuchaj, potrzebuję generatora liczb losowych<br>- Czternaście...</p>';
             }
             },
-            {
-            name: "uwaga",
-            get() {
-                return window.blur(100);
-            }
-            },
-
             
         ]
         };
@@ -168,7 +161,7 @@
         color: whitesmoke;
         font-size: 25px;
     }
-    
+
     .club_description_mb {
         text-align: left;
         font-family: 'Lato', sans-serif;

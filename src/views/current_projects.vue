@@ -8,9 +8,9 @@
                 <img class="project_picture" src="../assets/desk.jpg">
             </div>
             <div class="card-column flex-column">
-                <div class="project_title">Na ten moment nie pracujemy nad żadnym projektem</div>
-                <div class="project_data">25-26.06.2022r.</div>
-                <div class="project_description box-border">Opis projektu
+                <div class="project_title"></div>
+                <div class="project_data"></div>
+                <div class="project_description box-border">
                 </div>
             </div>
         </div>
