@@ -26,12 +26,7 @@
                 @shell_output="prompt"
             ></v-shell>
 
-            <div class="container justify-center flex-wrap object-center px-20 w-full">
-                <div class="home_text1 block p-8 pt-14 flex justify-center text-justify">Cześć!</div>
-                <div class="home_text block px-8 flex justify-center text-justify">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głównie w programowaniu. 
-                Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
-                Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!</div>
-            </div>
+            
         </div>
     </div>
     <div class="pt-25 flex justify-center object-center scale-50">
@@ -69,7 +64,7 @@
         commands: [
             { name: "hello",
             get() {
-                return `<p>Witaj na stronie Koła naukowego Programiski!<br>Wpisz "help" i poznaj wszystkie komendy.</p>`;
+                return `<p>Witaj na stronie Koła naukowego Programiski! Wpisz "help" i poznaj wszystkie komendy.</p>`;
             }
             },
             {
@@ -127,6 +122,7 @@
     }
     #container[data-v-02bdc591]{
         height: 500px;
+        width: 60%;
         border-radius: 30px 30px 30px 30px;
         font-family: 'Inconsolata', monospace;
         color: whitesmoke;
@@ -159,7 +155,7 @@
     }
     .box1 {
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 17%;
         background-color: rgb(0, 0, 0, 0);
         display : flex;
         width: 100%;
@@ -196,7 +192,7 @@
     .bottom_box{
         width: 100%;
         height: 700px;
-        background-color: rgba(255, 255, 255, 1);
+        background-color: rgba(245, 245, 245, 0.95);
         border-radius: 30px 30px 30px 30px;
         position: relative;
         box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
