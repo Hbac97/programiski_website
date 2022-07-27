@@ -4,7 +4,7 @@
 
     <div class= "flex justify-center flex-wrap object-center px-8">
         <router-link to="/about">
-            <div class="rectangle hover:scale-110" >
+            <div class="rectangle hover:scale-105" >
                 <div class="zdj_zakładki">
                     <img src="../assets/aboutus.png">
                 </div>
@@ -13,7 +13,7 @@
         </router-link>
 
         <router-link to="/government">
-            <div class="rectangle hover:scale-110">
+            <div class="rectangle hover:scale-105">
                 <div class="zdj_zakładki">
                     <img src="../assets/wladze.png">
                 </div>
@@ -22,7 +22,7 @@
         </router-link>
 
         <router-link to="/statute">
-            <div class="rectangle hover:scale-110">
+            <div class="rectangle hover:scale-105">
                 <div class="zdj_zakładki">
                     <img src="../assets/regulamin.png">
                 </div>
@@ -31,7 +31,7 @@
         </router-link>
 
         <router-link to="/join">
-            <div class="rectangle hover:scale-110">
+            <div class="rectangle hover:scale-105">
                 <div class="zdj_zakładki">
                     <img src="../assets/join.png">
                 </div>
