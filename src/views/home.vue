@@ -66,7 +66,7 @@
             {
             name: "e-mail",
             get() {
-                return '<p>Nasz e-mail to: programiski@usz.edu.pl<br>W razie pytań pisz śmiało!</p>';
+                return '<p>Nasz e-mail to: programiski@gmail.com<br>W razie pytań pisz śmiało!</p>';
             }
             },
             {
@@ -127,7 +127,12 @@
         overflow-x: hidden;
         overflow-wrap: break-word;
         background-color: rgb(0, 0, 0, 0.15);
-        box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
+        box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+    #container[data-v-02bdc591]:hover {
+    background-color: rgb(0, 0, 0, 0.20);
+    color: white;
     }
     #baner[data-v-02bdc591]{
         display: flex;

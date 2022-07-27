@@ -4,7 +4,7 @@
 
     <div class= "flex justify-center flex-wrap object-center px-8">
       <div class="rectangle4">
-          <div class="profile"><img src="../assets/opiekunkola.png"></div>
+          <div class="profile"><img src="../assets/opiekunkola.jpg"></div>
           <div class="name">Justyna Szydłowska</div>
           <div class="role"><br>Opiekun koła</div>
           <div class="role"><br></div>
@@ -55,9 +55,10 @@
       margin-top: 70px;
       transition: 0.3s;
       box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
+      transition: 0.3s;
   }
   .rectangle4:hover {
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgb(0, 0, 0, 0.15);
     color: white; 
   }
   .profile {
