@@ -34,6 +34,15 @@
             </div>
         </div>
     </div>
+    <div class="pt-25 flex justify-center object-center scale-50">
+        <img class="mt-48 flex justify-center object-center animate-bounce " src="../assets/arrow.png">
+    </div>
+    <div class="bottom_box justify-center flex-wrap object-center px-20 w-full font-semibold text-xl">
+        <div class=" block p-8 pt-14 flex justify-center text-justify">Cześć!</div>
+        <div class=" block px-8 flex justify-center text-justify">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głównie w programowaniu. 
+        Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
+        Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!</div>
+    </div>
 </template>
 
 
@@ -184,6 +193,17 @@
         border-radius: 30px 30px 30px 30px;
         box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.175);
     }
+    .bottom_box{
+        width: 100%;
+        height: 700px;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 30px 30px 30px 30px;
+        position: relative;
+        box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
+        margin-top: 50px;
+        color: rgb(25, 133, 91);
+    }
+
     @media (max-width: 1200px) {
     .box1 {
         flex-direction: column;

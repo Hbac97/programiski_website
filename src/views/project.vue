@@ -4,7 +4,7 @@
     
     <div class= "flex justify-center flex-wrap object-center px-8">
       <router-link to="/current_projects">
-          <div class="rectangle2">
+          <div class="rectangle2 hover:scale-110">
               <div class="zdj_zakładki_projektu">
                   <img src="../assets/current.png">
               </div>
@@ -13,7 +13,7 @@
       </router-link>
 
       <router-link to="/realized_projects">
-          <div class="rectangle2">
+          <div class="rectangle2 hover:scale-110">
               <div class="zdj_zakładki_projektu">
                   <img src="../assets/realized.png">
               </div>

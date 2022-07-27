@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <div class="app">
+  <div class="app overflow-x-hidden">
     <Sidebar />
     <router-view />
     
