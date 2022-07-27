@@ -61,16 +61,16 @@
             md:mt-0
           "
         >
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:scale-125 transition duration-150 ease-in hover:ease-out">
             <router-link to="/club">KOŁO</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:scale-125 transition duration-150 ease-in hover:ease-out">
             <router-link to="/news">AKTUALNOŚCI</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:scale-125 transition duration-150 ease-in hover:ease-out">
             <router-link to="/project">PROJEKTY</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:scale-125 transition duration-150 ease-in hover:ease-out">
             <router-link to="/contact">KONTAKT</router-link>
           </li>
         </ul>

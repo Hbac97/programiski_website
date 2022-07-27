@@ -15,7 +15,7 @@
                     </div>
                     <div class="contact_mail">
                         <div class="contact_icon"><img src="../assets/mail_c.png"></div>
-                        <div class="kontakt">programiski@usz.edu.pl</div>
+                        <div class="kontakt">programiski@gmail.com</div>
                     </div>
                     <div class="contact_icon"><img src="../assets/localization.png"></div>
                     <div class="adress">
