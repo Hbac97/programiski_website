@@ -18,7 +18,7 @@
     </div>
 
     <div v-else>
-        <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis box1 ">
+        <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis box1 break-words">
             <v-shell class="container p-4 w-full flex-wrap"
                 :banner="banner"
                 :shell_input="send_to_terminal"
@@ -229,7 +229,7 @@
     }
     .bottom_box{
         width: 100%;
-        height: 700px;
+        height: auto;
         background-color: whitesmoke;
         border-radius: 30px 30px 30px 30px;
         position: relative;
