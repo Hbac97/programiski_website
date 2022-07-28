@@ -32,12 +32,50 @@
     <div class="pt-25 flex justify-center object-center scale-50">
         <img class="mt-48 flex justify-center object-center animate-bounce " src="../assets/arrow.png">
     </div>
-    <div class="bottom_box justify-center flex-wrap object-center px-20 w-full font-semibold text-xl">
-        <div class=" block p-8 pt-14 flex justify-center text-justify">Cześć!</div>
-        <div class=" block px-8 flex justify-center text-justify">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głównie w programowaniu. 
+    <div class="bottom_box justify-center flex-wrap object-center px-20 w-full font-semibold text-3xl">
+        <div class=" block p-8 pt-14 flex justify-center text-justify text-3xl;">Cześć!</div>
+        <div class=" block px-8 flex justify-center text-justify font">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głównie w programowaniu. 
         Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
         Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!</div>
+
+        <div class="flex justify-center flex-wrap object-center px-8">
+            <router-link to="/about">
+                <div class="rectangle0 hover:scale-105" >
+                    <div class="zdj_zakładki0">
+                        <img src="../assets/aboutus.png">
+                    </div>
+                    <div class="tytuł_zakładki0 text-2xl">O nas</div>
+                </div>
+            </router-link>
+            <router-link to="/government">
+                <div class="rectangle0 hover:scale-105">
+                    <div class="zdj_zakładki0">
+                        <img src="../assets/wladze.png">
+                    </div>
+                    <div class="tytuł_zakładki0 text-2xl">Władze</div>
+                </div>
+            </router-link>
+            <router-link to="/statute">
+                <div class="rectangle0 hover:scale-105">
+                    <div class="zdj_zakładki0">
+                        <img src="../assets/regulamin.png">
+                    </div>
+                    <div class="tytuł_zakładki0 text-2xl">Regulamin</div>
+                </div>
+            </router-link>
+            <router-link to="/join">
+            <div class="rectangle0 hover:scale-105">
+                <div class="zdj_zakładki0">
+                    <img src="../assets/join.png">
+                </div>
+                <div class="tytuł_zakładki0 text-2xl">Dołącz do nas!</div>
+            </div>
+            </router-link>
+
+        </div>
+
     </div>
+
 </template>
 
 
@@ -64,7 +102,7 @@
         commands: [
             { name: "hello",
             get() {
-                return `<p>Witaj na stronie Koła naukowego Programiski! Wpisz "help" i poznaj wszystkie komendy.</p>`;
+                return `<p>Witaj na stronie Koła naukowego Programiski!<br>Wpisz "help" i poznaj wszystkie komendy lub zjedź w dół i dowiedz się więcej.</p>`;
             }
             },
             {
@@ -192,12 +230,13 @@
     .bottom_box{
         width: 100%;
         height: 700px;
-        background-color: rgba(245, 245, 245, 0.95);
+        background-color: whitesmoke;
         border-radius: 30px 30px 30px 30px;
         position: relative;
         box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
         margin-top: 50px;
         color: rgb(25, 133, 91);
+        font-size: 30px;
     }
 
     @media (max-width: 1200px) {
@@ -209,6 +248,37 @@
     .card-column {
         width: 100%;
     }
+    }
+    /* Kafelki jak w club */
+    .rectangle0 {
+    width: 250px;
+    height: 320px;
+    background: rgb(0, 0, 0, 0.1);
+    border-radius: 30px 30px 30px 30px;
+    display : inline-block;
+    position: relative;
+    margin: 25px;
+    margin-top: 40px;
+    transition: 0.3s;
+    box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
+    }
+    .zdj_zakładki0 {
+        width: 240px;
+        position: absolute;
+        padding: 35px;
+        padding-left: 43px;
+        
+    }
+    .zdj_zakładki0 img {
+        width: 290px;
+        height: 100%;
+        border-radius: 25px 25px 25px 25px;
+    }
+    .tytuł_zakładki0 {
+        text-align: center;
+        padding-top: 265px;
+        
+    }
     
-}
+
 </style>
