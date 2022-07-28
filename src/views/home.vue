@@ -32,8 +32,8 @@
     <div class="pt-25 flex justify-center object-center scale-50">
         <img class="mt-48 flex justify-center object-center animate-bounce " src="../assets/arrow.png">
     </div>
-    <div class="bottom_box justify-center flex-wrap object-center px-20 w-full font-semibold text-3xl">
-        <div class=" block p-8 pt-14 flex justify-center text-justify text-3xl;">Cześć!</div>
+    <div class="bottom_box justify-center flex-wrap object-center px-20 w-full font-semibold text-base sm:text-base md:text-l lg:text-xl xl:text-2xl">
+        <div class=" block p-8 pt-14 flex justify-center text-justify text-xl;">Cześć!</div>
         <div class=" block px-8 flex justify-center text-justify font">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głównie w programowaniu. 
         Naszym celem jest rozwijanie swoich umiejętności, zdobywanie doświadczenia oraz wykorzystanie tego magicznego, studenckiego czasu w jak najlepszy sposób. 
         Jeżeli zainteresowała Cię nasza działalność i myślisz o wstąpnieniu do nas, zapraszamy do kontaktu!</div>
@@ -44,7 +44,7 @@
                     <div class="zdj_zakładki0">
                         <img src="../assets/aboutus.png">
                     </div>
-                    <div class="tytuł_zakładki0 text-2xl">O nas</div>
+                    <div class="tytuł_zakładki0 text-xl">O nas</div>
                 </div>
             </router-link>
             <router-link to="/government">
@@ -52,7 +52,7 @@
                     <div class="zdj_zakładki0">
                         <img src="../assets/wladze.png">
                     </div>
-                    <div class="tytuł_zakładki0 text-2xl">Władze</div>
+                    <div class="tytuł_zakładki0 text-xl">Władze</div>
                 </div>
             </router-link>
             <router-link to="/statute">
@@ -60,7 +60,7 @@
                     <div class="zdj_zakładki0">
                         <img src="../assets/regulamin.png">
                     </div>
-                    <div class="tytuł_zakładki0 text-2xl">Regulamin</div>
+                    <div class="tytuł_zakładki0 text-xl">Regulamin</div>
                 </div>
             </router-link>
             <router-link to="/join">
@@ -68,7 +68,7 @@
                 <div class="zdj_zakładki0">
                     <img src="../assets/join.png">
                 </div>
-                <div class="tytuł_zakładki0 text-2xl">Dołącz do nas!</div>
+                <div class="tytuł_zakładki0 text-xl">Dołącz do nas!</div>
             </div>
             </router-link>
 
