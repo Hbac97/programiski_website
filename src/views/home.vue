@@ -20,7 +20,7 @@
     </div>
 
     <div v-else>
-        <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis mt-10">
+        <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis mt-5">
             <v-shell class="flex flex-auto justify-center object-center container p-0 w-full flex-wrap text-ellipsis"
                 :banner="banner"
                 :shell_input="send_to_terminal"
