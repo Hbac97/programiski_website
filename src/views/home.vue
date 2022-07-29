@@ -2,7 +2,9 @@
    
     <main class="home">
     </main>
-    
+
+
+
     <div v-if="$isMobile()">
         <div class="flex justify-center flex-wrap object-center px-8 text-ellipsis">
             <div class="club_mb_bg">
@@ -19,19 +21,19 @@
 
     <div v-else>
         <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis box1">
-            <v-shell class="container p-4 w-full flex-wrap"
+            <v-shell class="container p-4 w-full flex-wrap text-ellipsis"
                 :banner="banner"
                 :shell_input="send_to_terminal"
                 :commands="commands"
                 @shell_output="prompt"
             ></v-shell>
-
-            
         </div>
     </div>
-    <div class="pt-25 flex justify-center object-center scale-50">
-        <img class="mt-48 flex justify-center object-center animate-bounce " src="../assets/arrow.png">
-    </div>
+
+        <div class="relative pt-25 flex justify-center object-center scale-50">
+            <img class="mt-38 flex justify-center object-center animate-bounce " src="../assets/arrow.png">
+        </div>
+
     <div class="bottom_box justify-center flex-wrap object-center px-20 w-full font-semibold text-base sm:text-base md:text-l lg:text-xl xl:text-2xl">
         <div class=" block p-8 pt-14 flex justify-center text-justify text-xl;">Cześć!</div>
         <div class=" block px-8 flex justify-center text-justify font">Jesteśmy kołem naukowym Uniwersytetu Szczecińskiego specjalizującym się w obszarze IT, głównie w programowaniu. 
@@ -147,6 +149,7 @@
         }
     }
     };
+    
 </script>
 
 <style>
@@ -174,9 +177,14 @@
         transition: 0.3s;
     }
     #container[data-v-02bdc591]:hover {
-    background-color: rgb(0, 0, 0, 0.20);
-    color: white;
+        background-color: rgb(0, 0, 0, 0.20);
+        color: white;
     }
+
+    #container output[data-v-02bdc591]{
+        overflow-wrap: break-word;
+    }
+
     #baner[data-v-02bdc591]{
         display: flex;
     }
@@ -234,7 +242,7 @@
         border-radius: 30px 30px 30px 30px;
         position: relative;
         box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.175);
-        margin-top: 50px;
+        margin-top: 10px;
         color: rgb(25, 133, 91);
         font-size: 30px;
     }
