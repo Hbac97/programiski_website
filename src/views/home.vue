@@ -20,8 +20,8 @@
     </div>
 
     <div v-else>
-        <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis box1">
-            <v-shell class="container p-0 w-full flex-wrap text-ellipsis"
+        <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis mt-10">
+            <v-shell class="flex flex-auto justify-center object-center container p-0 w-full flex-wrap text-ellipsis"
                 :banner="banner"
                 :shell_input="send_to_terminal"
                 :commands="commands"
@@ -31,7 +31,7 @@
     </div>
 
         <div class="relative pt-25 flex justify-center object-center scale-50">
-            <img class="mt-38 flex justify-center object-center animate-bounce " src="../assets/arrow.png">
+            <img class=" mt-10 flex justify-center object-center animate-bounce " src="../assets/arrow.png">
         </div>
 
     <div class="bottom_box justify-center flex-wrap object-center px-20 w-full font-semibold text-base sm:text-base md:text-l lg:text-xl xl:text-2xl">
@@ -163,7 +163,7 @@
     }
     #container[data-v-02bdc591]{
         height: 500px;
-        width: 60%;
+        width: 70%;
         border-radius: 30px 30px 30px 30px;
         font-family: 'Inconsolata', monospace;
         color: whitesmoke;
@@ -201,7 +201,7 @@
     }
     .box1 {
         margin-top: 20px;
-        margin-left: 17%;
+        margin-left: ;
         background-color: rgb(0, 0, 0, 0);
         display : flex;
         width: 100%;
