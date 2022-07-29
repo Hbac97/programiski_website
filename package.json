@@ -13,7 +13,9 @@
     "scss": "^0.2.4",
     "tailwindcss": "^3",
     "vue": "^3.2.25",
-    "vue-router": "^4.1.1"
+    "vue-mobile-detection": "^2.0.1",
+    "vue-router": "^4.1.1",
+    "vue-shell": "^1.0.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",

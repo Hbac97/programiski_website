@@ -22,7 +22,7 @@
             >
             <div class="logo">
               <img src="../assets/logowektor.png">
-              <b>Koło naukowe<br>PROGRAMIŚKI</b>
+              <router-link to="/"><b>Koło naukowe<br>PROGRAMIŚKI</b></router-link>
             </div>
           </router-link>
           <!-- Mobile menu button -->
@@ -61,16 +61,16 @@
             md:mt-0
           "
         >
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="/">KOŁO</router-link>
+          <li class="text-sm font-bold text-gray-800 hover:scale-125 transition duration-150 ease-in hover:ease-out">
+            <router-link to="/club">KOŁO</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:scale-125 transition duration-150 ease-in hover:ease-out">
             <router-link to="/news">AKTUALNOŚCI</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <router-link to="/project">PROJEKT</router-link>
+          <li class="text-sm font-bold text-gray-800 hover:scale-125 transition duration-150 ease-in hover:ease-out">
+            <router-link to="/project">PROJEKTY</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:scale-125 transition duration-150 ease-in hover:ease-out">
             <router-link to="/contact">KONTAKT</router-link>
           </li>
         </ul>
@@ -92,7 +92,7 @@ export default {
 
 <style lang="scss" scoped>
     img {
-      max-width: 12%;
+      max-width: 30%;
       height: auto;
     }
     .Sidebar{
@@ -109,12 +109,14 @@ export default {
       text-align: center;
       color: whitesmoke;
       font-family: 'Lato', sans-serif;
+      text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
     }
     li {
       color: whitesmoke;
       padding: 30px;
       font-family: 'Lato', sans-serif;
       font-weight: 700;
+      text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
     }
     navbar {
       font-weight: 600;
