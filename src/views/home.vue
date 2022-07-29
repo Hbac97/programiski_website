@@ -21,7 +21,7 @@
 
     <div v-else>
         <div class= "flex flex-auto justify-center object-center px-8 text-ellipsis box1">
-            <v-shell class="container p-4 w-full flex-wrap text-ellipsis"
+            <v-shell class="container p-0 w-full flex-wrap text-ellipsis"
                 :banner="banner"
                 :shell_input="send_to_terminal"
                 :commands="commands"
