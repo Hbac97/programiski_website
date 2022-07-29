@@ -201,7 +201,6 @@
     }
     .box1 {
         margin-top: 20px;
-        margin-left: ;
         background-color: rgb(0, 0, 0, 0);
         display : flex;
         width: 100%;
