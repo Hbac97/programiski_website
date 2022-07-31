@@ -4,7 +4,7 @@
 
     <div class= "flex justify-center flex-wrap object-center px-8">
       <div class="rectangle4">
-          <div class="profile"><img src="../assets/opiekunkola.jpg"></div>
+          <div class="profile"><img src="../assets/kontozdj.png"></div>
           <div class="name">Justyna Szydłowska</div>
           <div class="role"><br>Opiekun koła</div>
           <div class="role"><br></div>
