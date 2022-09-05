@@ -4,7 +4,7 @@
 
     <div class= "flex justify-center flex-wrap object-center px-8">
       <div class="rectangle4">
-          <div class="profile"><img src="../assets/kontozdj.png"></div>
+          <div class="profile"><img src="../assets/kontozdj.png" class="rounded-2xl"></div>
           <div class="name">Justyna Szydłowska</div>
           <div class="role"><br>Opiekun koła</div>
           <div class="role"><br></div>
@@ -13,7 +13,7 @@
           <div class="Facebook"><a href=""></a></div>
       </div>
       <div class="rectangle4">
-          <div class="profile"><img src="../assets/przew.jpg"></div>
+          <div class="profile"><img src="../assets/przew.jpg" class="rounded-2xl"></div>
           <div class="name"><h3>Hubert Baciocha</h3></div>
           <div class="role"><br>Przewodniczący</div>
           <div class="role"><br></div>
@@ -22,16 +22,16 @@
           <div class="Facebook"><a href="https://www.facebook.com/hubertbaciocha" style="text-decoration: underline"> Facebook</a></div>
       </div>
       <div class="rectangle4">
-          <div class="profile"><img src="../assets/wice.jpg"></div>
+          <div class="profile"><img src="../assets/wice.jpg" class="rounded-2xl"></div>
           <div class="name"><h3>Natalia Tucka</h3></div>
           <div class="role"><br>Wiceprzewodnicząca</div>
           <div class="role">Sekretarz</div>
           <div class="mail"><br>natalia.tucka@stud.usz.edu.pl</div>
           <div class="linkedin"><a href="https://www.linkedin.com/in/natalia-tucka-93b617243/" style="text-decoration: underline">Linkedin </a></div>
-          <div class="Facebook"><a href="https://www.facebook.com/natalia.tucka.1>Natalia Tucka" style="text-decoration: underline"> Facebook</a></div>
+          <div class="Facebook"><a href="https://www.facebook.com/natalia.tucka.1" style="text-decoration: underline"> Facebook</a></div>
       </div>
       <div class="rectangle4">
-          <div class="profile"><img src="../assets/skarbnik.jpg"></div>
+          <div class="profile"><img src="../assets/skarbnik.jpg" class="rounded-2xl"></div>
           <div class="name"><h3>Konrad Strzelecki</h3></div>
           <div class="role"><br>Skarbnik</div>
           <div class="role"><br></div>
@@ -68,7 +68,6 @@
   img {
     width: 150px;
     height: 150px;
-    border-radius: 50px 50px 50px 50px;
   }
   .name {
     font-family: 'Lato', sans-serif;
