@@ -161,7 +161,7 @@
         display: flex;
         padding: 1rem;
     }
-    #container[data-v-02bdc591]{
+    #container[data-v-1ff78b14]{
         height: 500px;
         width: 70%;
         border-radius: 30px 30px 30px 30px;
@@ -176,25 +176,25 @@
         box-shadow: 7px 7px 3px rgb(0, 0, 0, 0.2);
         transition: 0.3s;
     }
-    #container[data-v-02bdc591]:hover {
+    #container[data-v-1ff78b14]:hover {
         background-color: rgb(0, 0, 0, 0.20);
         color: white;
     }
 
-    #container output[data-v-02bdc591]{
+    #container output[data-v-1ff78b14]{
         overflow-wrap: break-word;
     }
 
-    #baner[data-v-02bdc591]{
+    #baner[data-v-1ff78b14]{
         display: flex;
     }
-    #input-line[data-v-02bdc591]{
+    #input-line[data-v-1ff78b14]{
         display: flex;
     }
-    .prompt[data-v-02bdc591]{
+    .prompt[data-v-1ff78b14]{
         color: #A7DEBE;
     }
-    .cmdline[data-v-02bdc591]{
+    .cmdline[data-v-1ff78b14]{
         color: whitesmoke;
         overflow: hidden;
         overflow-wrap: break-word; 

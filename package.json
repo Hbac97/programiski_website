@@ -9,13 +9,14 @@
   },
   "dependencies": {
     "autoprefixer": "^10",
+    "firebase": "^9.9.4",
     "postcss": "^8",
     "scss": "^0.2.4",
     "tailwindcss": "^3",
     "vue": "^3.2.25",
     "vue-mobile-detection": "^2.0.1",
     "vue-router": "^4.1.1",
-    "vue-shell": "^1.0.3"
+    "vue3-shell": "^2.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
