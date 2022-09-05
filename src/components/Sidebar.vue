@@ -20,7 +20,7 @@
               hover:text-blue-400
             "
             >
-            <div class="logo">
+            <div class="logo p-4">
               <img src="../assets/logowektor.png">
               <router-link to="/"><b>Koło naukowe<br>PROGRAMIŚKI</b></router-link>
             </div>
